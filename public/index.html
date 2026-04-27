@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Работа чатером на OnlyFans: удалённо, без опыта, с обучением за 1–2 дня. Заполни анкету за минуту."
+    />
+    <title>Работа чатером на OnlyFans</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-blur bg-1" aria-hidden="true"></div>
+    <div class="bg-blur bg-2" aria-hidden="true"></div>
+
+    <header class="hero container fade-in">
+      <span class="pill">Удалённая вакансия</span>
+      <h1>Работа чатером на OnlyFans</h1>
+      <p class="hero-subtitle">Удалённо • Без опыта • Обучение за 1–2 дня</p>
+      <p class="hero-income">Доход от 1500$<br />20–25% от твоих продаж + бонусы</p>
+      <p class="hero-description">
+        Ищем чаттера, которого сможем повысить до тим лидера в ближайшее время
+      </p>
+      <div class="cta-row">
+        <a href="#application-form" class="btn btn-primary scroll-to-form">Заполнить анкету</a>
+      </div>
+      <p class="micro-text">Анкета занимает меньше 1 минуты</p>
+      <p class="tiny-text">
+        Увидел вакансию в Instagram? Заполни короткую анкету — мы напишем тебе в Telegram в
+        течение 2 часов.
+      </p>
+    </header>
+
+    <main>
+      <section class="container card fade-in">
+        <h2>Твой потенциальный доход</h2>
+        <p class="block-main">1500$ (20%-25%)</p>
+        <p class="block-text">
+          Ночная смена с 01:00 до 09:00 по Киеву<br />
+          Дневная смена с 09:00 до 16:00 по Киеву<br />
+          График 5/2, выходные согласовываются индивидуально
+        </p>
+      </section>
+
+      <section class="container fade-in">
+        <div class="section-head">
+          <h2>Почему с нами удобно</h2>
+        </div>
+        <div class="grid benefits-grid">
+          <article class="benefit-card"><span>1</span>Работа из дома</article>
+          <article class="benefit-card"><span>2</span>Гибкий график</article>
+          <article class="benefit-card"><span>3</span>Выплаты 2 раза в месяц</article>
+          <article class="benefit-card"><span>4</span>Хорошая бонусная система</article>
+          <article class="benefit-card wide">
+            <span>5</span>ЗП 20–25% от твоих продаж, с перспективой роста до админа
+          </article>
+        </div>
+      </section>
+
+      <section class="container fade-in">
+        <h2>Что ты получаешь</h2>
+        <div class="grid perks-grid">
+          <article class="perk-card">
+            <h3>Бесплатное обучение</h3>
+            <p>Научим всему с нуля за 1-2 дня</p>
+          </article>
+          <article class="perk-card">
+            <h3>Полная анонимность</h3>
+            <p>Работа через наши аккаунты, твои данные не видны</p>
+          </article>
+          <article class="perk-card">
+            <h3>Всё через ноутбук или ПК</h3>
+            <p>Нужен только интернет</p>
+          </article>
+          <article class="perk-card">
+            <h3>Поддержка 24/7</h3>
+            <p>Наша команда всегда на связи</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container card urgency fade-in">
+        <p class="urgency-main">Успей, мы тоже не резиновые :)</p>
+        <p class="urgency-small">
+          Заявки обрабатываются в течение 2 часов<br />
+          Мы напишем тебе в Telegram
+        </p>
+      </section>
+
+      <section class="container fade-in">
+        <a href="#application-form" class="btn btn-primary scroll-to-form">Оставить заявку</a>
+      </section>
+
+      <section class="container card form-card fade-in" id="application-form">
+        <h2>Заполни анкету для старта</h2>
+        <form id="lead-form" novalidate>
+          <label>
+            Имя
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Возраст
+            <input type="number" name="age" min="18" max="60" required />
+          </label>
+          <label>
+            Telegram (@username)
+            <input type="text" name="telegram" placeholder="@username" required />
+          </label>
+          <label>
+            Город / Страна
+            <input type="text" name="location" required />
+          </label>
+
+          <fieldset>
+            <legend>Есть ли у вас опыт?</legend>
+            <label class="radio"><input type="radio" name="experience" value="Да" required /> Да</label>
+            <label class="radio"><input type="radio" name="experience" value="Нет" required /> Нет</label>
+          </fieldset>
+
+          <button class="btn btn-primary btn-submit" type="submit">Оставляй заявку</button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "of-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive landing page for hiring OnlyFans chatters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
